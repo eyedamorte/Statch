@@ -1,10 +1,10 @@
 from django.contrib import admin
 from django.urls import path, include
 
-from streamers.views import *
+from channels.views import *
 
-app_name = 'streamers'
+app_name = 'channels'
 
 urlpatterns = [
-   path('list/', streamers_list_get)
+   path('list/', channels_list_get)
 ]

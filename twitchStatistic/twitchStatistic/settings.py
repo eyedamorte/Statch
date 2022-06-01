@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'twitchStatistic.apps.TwitchStatisticConfig',
     'rest_framework',
-    'streamers'
+    'channels'
 ]
 
 MIDDLEWARE = [
